@@ -23,13 +23,18 @@ The aim of the simulation is to find the acceleration to which a spacecraft land
 ------
 
 This produces a thrust which adds an upward acceleration we will call A.
+
 **A = T / m**
+
 where
+
 T = Thrust produced
+
 m = mass of the lander
 
 
 The lander has limited fuel **f=F**
+
 (Note: The aim of the simulator of course, is to soft land the spacecraft on the lunar surface before the fuel runs out (ie **f = 0** )).
 
 To implement the simulation we consider the motion of the lander in small segments of time Δt(delta(t)). If we have access to the real-time clock in the computer, then our simulation will be a real-time simulation - that is, everything will happen exactly as it would in real life.
@@ -37,10 +42,13 @@ To implement the simulation we consider the motion of the lander in small segmen
 The equations that we must compute for each small amount of time are:
 
 **v = vo + a Δt**      (Equation 1)
+
 **h = ho + vo Δt + a (Δt)2 / 2**       (Equation 2)
 
 If the engine is off we substitue -g for a, and if the engine is on we subtitute A as - g for a, as long as the fuel is not zero. When the engine is on we must subtract a quantity Δf Δt from the remaining fuel f. We must also compute the new time. So altogether we have two more equations:
+
 **f = fo - Δf Δt**     (only if the engine is on)       (Equation 3)
+
 **t = to + Δt**      (Equation 4)
 
 At the end we print current time, height, velocity and fuel, until the lander hits the lunar surface.
