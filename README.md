@@ -6,7 +6,7 @@ The aim of the simulation is to find the acceleration to which a spacecraft land
 ###### At the start the Lander will be at initial height H. We assume Lander velocity is zero
 $$v=0$$
 
-######There are only two conditions
+###### There are only two conditions
 -----
 -  Lander is in free fall its acceleration is
 
