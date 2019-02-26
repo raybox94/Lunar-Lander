@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD600AA2224BAD700DD0B24 /* background_space.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD600A92224BAD700DD0B24 /* background_space.png */; };
+		3FD600AC2224BB0600DD0B24 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD600AB2224BB0600DD0B24 /* ThirdViewController.swift */; };
+		3FD600B02224BB9C00DD0B24 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD600AF2224BB9C00DD0B24 /* settings_icon.png */; };
 		6BD7F52622221FE5000D1BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7F52522221FE5000D1BC2 /* AppDelegate.swift */; };
 		6BD7F52822221FE5000D1BC2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7F52722221FE5000D1BC2 /* FirstViewController.swift */; };
 		6BD7F52A22221FE5000D1BC2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7F52922221FE5000D1BC2 /* SecondViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FD600A92224BAD700DD0B24 /* background_space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_space.png; path = images/background_space.png; sourceTree = SOURCE_ROOT; };
+		3FD600AB2224BB0600DD0B24 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3FD600AF2224BB9C00DD0B24 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings_icon.png; path = images/settings_icon.png; sourceTree = SOURCE_ROOT; };
 		6BD7F52222221FE5000D1BC2 /* Lunar Lander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lunar Lander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD7F52522221FE5000D1BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD7F52722221FE5000D1BC2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +62,12 @@
 		6BD7F52422221FE5000D1BC2 /* Lunar Lander */ = {
 			isa = PBXGroup;
 			children = (
+				3FD600AF2224BB9C00DD0B24 /* settings_icon.png */,
+				3FD600A92224BAD700DD0B24 /* background_space.png */,
 				6BD7F52522221FE5000D1BC2 /* AppDelegate.swift */,
 				6BD7F52722221FE5000D1BC2 /* FirstViewController.swift */,
 				6BD7F52922221FE5000D1BC2 /* SecondViewController.swift */,
+				3FD600AB2224BB0600DD0B24 /* ThirdViewController.swift */,
 				6BD7F52B22221FE6000D1BC2 /* Main.storyboard */,
 				6BD7F52E22221FEA000D1BC2 /* Assets.xcassets */,
 				6BD7F53022221FEA000D1BC2 /* LaunchScreen.storyboard */,
@@ -126,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BD7F53222221FEA000D1BC2 /* LaunchScreen.storyboard in Resources */,
+				3FD600B02224BB9C00DD0B24 /* settings_icon.png in Resources */,
 				6BD7F52F22221FEA000D1BC2 /* Assets.xcassets in Resources */,
+				3FD600AA2224BAD700DD0B24 /* background_space.png in Resources */,
 				6BD7F52D22221FE6000D1BC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +151,7 @@
 			files = (
 				6BD7F52A22221FE5000D1BC2 /* SecondViewController.swift in Sources */,
 				6BD7F52622221FE5000D1BC2 /* AppDelegate.swift in Sources */,
+				3FD600AC2224BB0600DD0B24 /* ThirdViewController.swift in Sources */,
 				6BD7F52822221FE5000D1BC2 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
