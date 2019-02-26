@@ -63,7 +63,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_space.png" translatesAutoresizingMaskIntoConstraints="NO" id="rZW-hQ-ZK1">
                                 <rect key="frame" x="0.0" y="0.0" width="610" height="2208"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="610" id="IXE-lU-MS0"/>
+                                    <constraint firstAttribute="width" constant="610" id="4Ij-0V-Ov9"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -71,8 +71,8 @@
                         <constraints>
                             <constraint firstItem="atZ-6S-VAD" firstAttribute="bottom" secondItem="ue7-Vc-MEm" secondAttribute="bottom" constant="680" id="43Y-63-eg2"/>
                             <constraint firstItem="ue7-Vc-MEm" firstAttribute="trailing" secondItem="IYd-TV-yYM" secondAttribute="trailingMargin" id="7b3-Af-7MJ"/>
-                            <constraint firstItem="rZW-hQ-ZK1" firstAttribute="leading" secondItem="IYd-TV-yYM" secondAttribute="leading" id="Gwp-IH-oHQ"/>
                             <constraint firstItem="ue7-Vc-MEm" firstAttribute="top" secondItem="atZ-6S-VAD" secondAttribute="top" constant="23" id="IQL-n6-JJW"/>
+                            <constraint firstItem="rZW-hQ-ZK1" firstAttribute="leading" secondItem="IYd-TV-yYM" secondAttribute="leading" id="bwl-76-RBC"/>
                             <constraint firstItem="ue7-Vc-MEm" firstAttribute="leading" secondItem="IYd-TV-yYM" secondAttribute="leadingMargin" id="kgf-TY-Uqy"/>
                             <constraint firstItem="rZW-hQ-ZK1" firstAttribute="top" secondItem="ue7-Vc-MEm" secondAttribute="bottom" constant="-133" id="wcg-2m-QyD"/>
                         </constraints>
