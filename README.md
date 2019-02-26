@@ -33,6 +33,7 @@ T = Thrust produced
 m = mass of the lander
 
 
+
 The lander has limited fuel **f=F**
 
 (Note: The aim of the simulator of course, is to soft land the spacecraft on the lunar surface before the fuel runs out (ie **f = 0** )).
