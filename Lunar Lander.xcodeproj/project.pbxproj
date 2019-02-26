@@ -10,6 +10,12 @@
 		3FD600AA2224BAD700DD0B24 /* background_space.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD600A92224BAD700DD0B24 /* background_space.png */; };
 		3FD600AC2224BB0600DD0B24 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD600AB2224BB0600DD0B24 /* ThirdViewController.swift */; };
 		3FD600B02224BB9C00DD0B24 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD600AF2224BB9C00DD0B24 /* settings_icon.png */; };
+		6B28E7672224C4870051BD05 /* home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B28E7612224C4850051BD05 /* home_icon.png */; };
+		6B28E7682224C4870051BD05 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B28E7622224C4850051BD05 /* start.png */; };
+		6B28E7692224C4870051BD05 /* lander_craft_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B28E7632224C4860051BD05 /* lander_craft_1.png */; };
+		6B28E76A2224C4870051BD05 /* lander_apollo_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B28E7642224C4860051BD05 /* lander_apollo_11.png */; };
+		6B28E76B2224C4870051BD05 /* lander_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B28E7652224C4860051BD05 /* lander_icon.png */; };
+		6B28E76C2224C4870051BD05 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B28E7662224C4860051BD05 /* moon.png */; };
 		6BD7F52622221FE5000D1BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7F52522221FE5000D1BC2 /* AppDelegate.swift */; };
 		6BD7F52822221FE5000D1BC2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7F52722221FE5000D1BC2 /* FirstViewController.swift */; };
 		6BD7F52A22221FE5000D1BC2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7F52922221FE5000D1BC2 /* SecondViewController.swift */; };
@@ -22,6 +28,12 @@
 		3FD600A92224BAD700DD0B24 /* background_space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_space.png; path = images/background_space.png; sourceTree = SOURCE_ROOT; };
 		3FD600AB2224BB0600DD0B24 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		3FD600AF2224BB9C00DD0B24 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings_icon.png; path = images/settings_icon.png; sourceTree = SOURCE_ROOT; };
+		6B28E7612224C4850051BD05 /* home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_icon.png; path = images/home_icon.png; sourceTree = SOURCE_ROOT; };
+		6B28E7622224C4850051BD05 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start.png; path = images/start.png; sourceTree = SOURCE_ROOT; };
+		6B28E7632224C4860051BD05 /* lander_craft_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lander_craft_1.png; path = images/lander_craft_1.png; sourceTree = SOURCE_ROOT; };
+		6B28E7642224C4860051BD05 /* lander_apollo_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lander_apollo_11.png; path = images/lander_apollo_11.png; sourceTree = SOURCE_ROOT; };
+		6B28E7652224C4860051BD05 /* lander_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lander_icon.png; path = images/lander_icon.png; sourceTree = SOURCE_ROOT; };
+		6B28E7662224C4860051BD05 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = images/moon.png; sourceTree = SOURCE_ROOT; };
 		6BD7F52222221FE5000D1BC2 /* Lunar Lander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lunar Lander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD7F52522221FE5000D1BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD7F52722221FE5000D1BC2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +74,12 @@
 		6BD7F52422221FE5000D1BC2 /* Lunar Lander */ = {
 			isa = PBXGroup;
 			children = (
+				6B28E7612224C4850051BD05 /* home_icon.png */,
+				6B28E7642224C4860051BD05 /* lander_apollo_11.png */,
+				6B28E7632224C4860051BD05 /* lander_craft_1.png */,
+				6B28E7652224C4860051BD05 /* lander_icon.png */,
+				6B28E7662224C4860051BD05 /* moon.png */,
+				6B28E7622224C4850051BD05 /* start.png */,
 				3FD600AF2224BB9C00DD0B24 /* settings_icon.png */,
 				3FD600A92224BAD700DD0B24 /* background_space.png */,
 				6BD7F52522221FE5000D1BC2 /* AppDelegate.swift */,
@@ -136,9 +154,15 @@
 			files = (
 				6BD7F53222221FEA000D1BC2 /* LaunchScreen.storyboard in Resources */,
 				3FD600B02224BB9C00DD0B24 /* settings_icon.png in Resources */,
+				6B28E76B2224C4870051BD05 /* lander_icon.png in Resources */,
+				6B28E7692224C4870051BD05 /* lander_craft_1.png in Resources */,
+				6B28E76A2224C4870051BD05 /* lander_apollo_11.png in Resources */,
 				6BD7F52F22221FEA000D1BC2 /* Assets.xcassets in Resources */,
 				3FD600AA2224BAD700DD0B24 /* background_space.png in Resources */,
+				6B28E76C2224C4870051BD05 /* moon.png in Resources */,
 				6BD7F52D22221FE6000D1BC2 /* Main.storyboard in Resources */,
+				6B28E7672224C4870051BD05 /* home_icon.png in Resources */,
+				6B28E7682224C4870051BD05 /* start.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
