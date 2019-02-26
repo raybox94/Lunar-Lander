@@ -54,19 +54,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_space.png" translatesAutoresizingMaskIntoConstraints="NO" id="rZW-hQ-ZK1">
-                                <rect key="frame" x="0.0" y="0.0" width="610" height="1003"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue7-Vc-MEm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue7-Vc-MEm">
                                 <rect key="frame" x="20" y="67" width="374" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_space.png" translatesAutoresizingMaskIntoConstraints="NO" id="rZW-hQ-ZK1">
+                                <rect key="frame" x="0.0" y="0.0" width="610" height="2208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="610" id="IXE-lU-MS0"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="atZ-6S-VAD" firstAttribute="bottom" secondItem="ue7-Vc-MEm" secondAttribute="bottom" constant="680" id="43Y-63-eg2"/>
+                            <constraint firstItem="ue7-Vc-MEm" firstAttribute="trailing" secondItem="IYd-TV-yYM" secondAttribute="trailingMargin" id="7b3-Af-7MJ"/>
+                            <constraint firstItem="rZW-hQ-ZK1" firstAttribute="leading" secondItem="IYd-TV-yYM" secondAttribute="leading" id="Gwp-IH-oHQ"/>
+                            <constraint firstItem="ue7-Vc-MEm" firstAttribute="top" secondItem="atZ-6S-VAD" secondAttribute="top" constant="23" id="IQL-n6-JJW"/>
+                            <constraint firstItem="ue7-Vc-MEm" firstAttribute="leading" secondItem="IYd-TV-yYM" secondAttribute="leadingMargin" id="kgf-TY-Uqy"/>
+                            <constraint firstItem="rZW-hQ-ZK1" firstAttribute="top" secondItem="ue7-Vc-MEm" secondAttribute="bottom" constant="-133" id="wcg-2m-QyD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="atZ-6S-VAD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="settings_icon.png" id="D7l-Ra-Spj" userLabel="Third"/>
